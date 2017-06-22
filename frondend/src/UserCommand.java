@@ -50,21 +50,6 @@ public class UserCommand extends DataObject implements Serializable {
         this.whereValue = whereValue;
     }
 
-    public void setSelect(String table){
-
-    }
-    public void setInsert(String table, String [] columns, String [] values){
-
-    }
-
-    public void setUpdate(String table, String [] columns, String [] values, String [][][] conditions){
-
-    }
-
-    public void setDelete(String table, String[][][] conditions){
-
-    }
-
 
     public String getCommandType() {
         return commandType;
@@ -102,4 +87,7 @@ public class UserCommand extends DataObject implements Serializable {
         return valueSets;
     }
 
+
+
 }
+
